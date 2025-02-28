@@ -1,0 +1,1 @@
+let constante = 1;
