@@ -30,3 +30,16 @@ let kioji = { nombre: "Kioji" };
 let jiota = cambiarNombre( kioji ); // se le reasigna un nuevo valor
 
 console.log({ kioji, jiota });
+
+// Arreglos
+
+const frutas = ['Manzana', 'Pera', 'Naranja', 'Limón', 'Mango'];
+
+// se crea una copia de la variable
+// pero se separan los elementos
+// const otrasFrutas = [...frutas]; // forma #1
+const otrasFrutas = frutas.slice(); // forma #2
+
+otrasFrutas.push('fresa');
+
+console.table( [frutas, otrasFrutas] );
