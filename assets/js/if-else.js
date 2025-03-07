@@ -37,4 +37,8 @@ let diasSemana = {
     6: "sábado"
 }
 
- console.log(diasSemana[dia]);
+// con un array es ma facil y limpio
+let diasSemana2 = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+
+//  console.log(diasSemana[dia]);
+console.log(diasSemana2[dia]);
