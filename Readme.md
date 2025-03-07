@@ -94,3 +94,137 @@
 
 ### 10. Contador de vocales
    - Crea una función `contarVocales(texto)` que reciba una cadena y devuelva el número de vocales que contiene.
+
+## Práctica tercera tanda
+
+
+### 2️⃣ Determinar si una persona puede votar
+```javascript
+/*
+* Si la persona tiene 18 años o más, puede votar.
+* Si tiene menos de 18 años, no puede votar.
+*/
+
+```
+
+### 3️⃣ Determinar el descuento en una compra
+```javascript
+/*
+* Si el cliente compra más de $100, se le da un 10% de descuento.
+* Si compra menos de $100, no recibe descuento.
+*/
+
+```
+
+
+4️⃣ Convertir una temperatura de Celsius a Fahrenheit
+```javascript
+/*
+* Para convertir de Celsius a Fahrenheit usamos la fórmula:
+* Fahrenheit = (Celsius × 9/5) + 32
+*/
+
+```
+
+
+5️⃣ Comprobar si un año es bisiesto
+```javascript
+/*
+* Un año es bisiesto si es divisible por 4.
+* Pero si también es divisible por 100, no es bisiesto,
+* a menos que también sea divisible por 400.
+*/
+
+```
+
+
+6️⃣ Determinar el mayor de dos números
+```javascript
+/*
+* Si el primer número es mayor que el segundo, imprimirlo.
+* Si el segundo número es mayor, imprimirlo.
+* Si ambos son iguales, imprimir "Los números son iguales".
+*/
+
+```
+
+
+7️⃣ Determinar si un número es positivo, negativo o cero
+```javascript
+/*
+* Si el número es mayor que 0, imprimir "Positivo".
+* Si el número es menor que 0, imprimir "Negativo".
+* Si el número es igual a 0, imprimir "Cero".
+*/
+
+```
+
+
+8️⃣ Validar si una contraseña es segura
+```javascript
+/*
+* Una contraseña es segura si tiene al menos 8 caracteres.
+* Si tiene menos de 8 caracteres, imprimir "Contraseña insegura".
+* Si tiene 8 o más, imprimir "Contraseña segura".
+*/
+
+```
+
+
+9️⃣ Determinar si un número es múltiplo de 3 y/o 5
+```javascript
+/*
+* Si el número es múltiplo de 3, imprimir "Fizz".
+* Si el número es múltiplo de 5, imprimir "Buzz".
+* Si el número es múltiplo de ambos, imprimir "FizzBuzz".
+* Si no es múltiplo de ninguno, imprimir el número.
+*/
+
+```
+
+🔟 Calcular el precio final con IVA
+```javascript
+/*
+* Si el producto cuesta más de $50, se le aplica un IVA del 19%.
+* Si cuesta $50 o menos, se le aplica un IVA del 10%.
+* Mostrar el precio final con IVA incluido.
+*/
+
+```
+
+1️⃣1️⃣ Determinar si un usuario puede entrar a un sitio web
+```javascript
+/*
+* Si el usuario tiene más de 18 años, puede entrar.
+* Si tiene entre 13 y 17 años, necesita permiso de un adulto.
+* Si tiene menos de 13 años, no puede entrar.
+*/
+
+```
+
+1️⃣2️⃣ Determinar si una palabra es larga o corta
+```javascript
+/*
+* Si la palabra tiene más de 10 caracteres, imprimir "Palabra larga".
+* Si tiene 10 o menos caracteres, imprimir "Palabra corta".
+*/
+
+```
+
+1️⃣3️⃣ Comprobar si un usuario está registrado
+```javascript
+/*
+* Si el nombre de usuario no está vacío, imprimir "Bienvenido, [nombre]".
+* Si está vacío, imprimir "Por favor, ingresa tu nombre de usuario".
+*/
+
+```
+
+1️⃣4️⃣ Comparar dos cadenas de texto
+```javascript
+/*
+* Si las dos cadenas son iguales, imprimir "Las cadenas son iguales".
+* Si no son iguales, imprimir "Las cadenas son diferentes".
+*/
+
+```
