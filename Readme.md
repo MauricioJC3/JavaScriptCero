@@ -117,16 +117,6 @@
 ```
 
 
-4️⃣ Convertir una temperatura de Celsius a Fahrenheit
-```javascript
-/*
-* Para convertir de Celsius a Fahrenheit usamos la fórmula:
-* Fahrenheit = (Celsius × 9/5) + 32
-*/
-
-```
-
-
 5️⃣ Comprobar si un año es bisiesto
 ```javascript
 /*
