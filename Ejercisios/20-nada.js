@@ -1,5 +1,8 @@
 
-
+/*
+* Si la palabra tiene más de 10 caracteres, imprimir "Palabra larga".
+* Si tiene 10 o menos caracteres, imprimir "Palabra corta".
+*/
 
 function tamañoPalabra(palabra) {
     if (palabra.length > 10) {
