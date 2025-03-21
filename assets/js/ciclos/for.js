@@ -1,4 +1,10 @@
 
+/**
+ * ✔️ Usa for si necesitas control total sobre las iteraciones.
+ * ✔️ Usa for...in para recorrer objetos.
+ * ✔️ Usa for...of para recorrer arrays y estructuras iterables sin preocuparte de los índices.
+ */
+
 
 const libros = ['el nombre del viento','el nombre del sol','el nombre de la luna','el nombre de la tierra','el nombre de la vida']
 
@@ -42,6 +48,13 @@ for ( let libro of libros ) {
 }
 
 
+
+console.log( ' -------  ejercisios  ------ ' );
+
+const user = { name: "Andrés", age: 25 };
+for (let key in user) {
+    console.log(key, user[key]);
+}
 
 
 
