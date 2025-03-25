@@ -3,6 +3,16 @@ let deck         = [];
 const tipos      = ['C', 'D', 'H', 'S'];
 const especiales = ['A','J', 'Q', 'K'];
 
+let puntosjugador = 0;
+let puntoscomputador = 0;
+
+// Referencias del HTML
+const btnPedir = document.querySelector('#btnPedir');
+
+const divCartasJugador = document.querySelector('#jugador-cartas');
+const divCartasComputador = document.querySelector('#computadora-cartas');
+const puntosHTML = document.querySelectorAll('small');
+
 // Esta funcion crea un nuevo deck de cartas
 const crearDeck = () => {
 
@@ -38,10 +48,7 @@ const pedirCarta = () => {
     }
         const carta = deck.pop();
 
-    
-    console.log(deck);
-    console.log('carta ',carta);
-    return 'carta';
+    return carta;
 }
 
 // deck = []; // para poner a pruba de que si el deck esta vacio se no se ejcute el codigo
@@ -61,12 +68,30 @@ const valorCarta = (carta) => {
    return ( isNaN(valor) ) ?
            ( valor === 'A') ? 11 : 10 
            : valor * 1;
-
 }
 
-const valor = valorCarta( pedirCarta() );
+//Eventos
+// collback funcion que se pasa como argumento
 
-console.log(valor);
+btnPedir.addEventListener('click', () => {
+
+    const carta = pedirCarta();
+    puntosjugador = puntosjugador + valorCarta(carta);
+    puntosHTML[0].innerText = puntosjugador;
+
+    const imgcarta = document.createElement('img');
+        imgcarta.src = `assets/cartas/${carta}.png`;
+        imgcarta.classList.add('carta');
+        divCartasJugador.append( imgcarta );
+
+        if ( puntosjugador > 21 ) {
+            console.warn('Jugador perdio');
+            btnPedir.disabled = true;
+        } else if ( puntosjugador === 21) {
+            console.info('Jugador ha gano');
+            btnPedir.disabled = true;
+        }
+});
 
 
 
