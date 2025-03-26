@@ -1,0 +1,1 @@
+const cambiarP = document.querySelector('p').innerText = 'Yo juego para ti mama!';

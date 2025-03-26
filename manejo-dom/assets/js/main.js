@@ -1,0 +1,1 @@
+import contadorClick, {btnClick} from "./catidad-click";
